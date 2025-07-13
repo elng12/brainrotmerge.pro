@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Brainrot Merge Blog</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;600;700&family=SF+Pro+Text:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --apple-blue: #007AFF;
+            --apple-blue-dark: #0056CC;
+            --apple-gray: #8E8E93;
+            --apple-gray-light: #F2F2F7;
+            --apple-white: #FFFFFF;
+            --apple-black: #1C1C1E;
+            --bg-primary: var(--apple-white);
+            --bg-secondary: var(--apple-gray-light);
+            --text-primary: var(--apple-black);
+            --text-secondary: var(--apple-gray);
+        }
+
+        *, *::before, *::after { 
+            box-sizing: border-box; 
+            margin: 0; 
+            padding: 0; 
+        }
+        
+        body {
+            font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+            color: var(--text-primary);
+            font-size: 17px;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px 20px;
+        }
+
+        .icon {
+            font-size: 5rem;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        h1 {
+            font-family: 'SF Pro Display', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            background: var(--apple-blue);
+            color: var(--apple-white);
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            margin: 0 8px;
+        }
+
+        .btn:hover {
+            background: var(--apple-blue-dark);
+            transform: translateY(-2px);
+            color: var(--apple-white);
+        }
+
+        .btn-secondary {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--text-secondary);
+            color: var(--apple-white);
+        }
+
+        .coming-soon-info {
+            background: var(--bg-secondary);
+            padding: 24px;
+            border-radius: 16px;
+            margin: 2rem 0;
+        }
+
+        .feature-list {
+            text-align: left;
+            margin: 1.5rem 0;
+        }
+
+        .feature-list li {
+            margin: 0.8rem 0;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .icon { font-size: 4rem; }
+            .btn { margin: 8px 0; display: block; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🚧</div>
+        <h1>Article Coming Soon!</h1>
+        <p>We're working hard to bring you amazing content about Brainrot Merge strategies, character guides, and secret tips!</p>
+        
+        <div class="coming-soon-info">
+            <h3 style="margin-bottom: 1rem; color: var(--apple-blue);">What's Coming:</h3>
+            <ul class="feature-list">
+                <li>🎯 Advanced merge strategies</li>
+                <li>🇮🇹 Complete Italian character guides</li>
+                <li>🏆 Pro player tips and tricks</li>
+                <li>🔥 Hidden combos and Easter eggs</li>
+                <li>📊 Leaderboard domination tactics</li>
+            </ul>
+        </div>
+
+        <p>In the meantime, check out our featured article or return to the blog to explore other content!</p>
+        
+        <div>
+            <a href="article-overpowered-characters.html" class="btn">🃏 Read Featured Article</a>
+            <a href="blog.html" class="btn btn-secondary">📚 Back to Blog</a>
+        </div>
+    </div>
+</body>
+</html> 

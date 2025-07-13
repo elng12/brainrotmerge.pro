@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- 主页 -->
+  <url>
+    <loc>https://brainrotmerge.pro/</loc>
+    <lastmod>2025-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://brainrotmerge.com/brainrot-merge7.jpg</image:loc>
+      <image:title>Brainrot Merge Game Screenshot</image:title>
+      <image:caption>Italian Brainrot Puzzle Game Interface</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- 博客首页 -->
+  <url>
+    <loc>https://brainrotmerge.pro/blog.html</loc>
+    <lastmod>2025-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- 文章页面 -->
+  <url>
+    <loc>https://brainrotmerge.pro/article-overpowered-characters.html</loc>
+    <lastmod>2025-01-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/bf/69/65bf6964-1328-7f7c-b16c-efe84ca959d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg</image:loc>
+      <image:title>Brainrot Merge Gameplay Guide</image:title>
+    </image:image>
+  </url>
+  
+  <!-- 即将推出页面 -->
+  <url>
+    <loc>https://brainrotmerge.pro/coming-soon.html</loc>
+    <lastmod>2025-01-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+</urlset> 

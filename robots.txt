@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# 主要页面
+Allow: /index.html
+Allow: /blog.html
+Allow: /article-*.html
+
+# 静态资源
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+
+# 站点地图位置
+Sitemap: https://brainrotmerge.pro/sitemap.xml
+
+# 爬取延迟（可选，对服务器友好）
+Crawl-delay: 1
+
+# 针对特定搜索引擎的优化
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1 
