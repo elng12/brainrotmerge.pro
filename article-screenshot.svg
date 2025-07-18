@@ -1,0 +1,48 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="articleBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#AF52DE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF2D92;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#articleBg)"/>
+  
+  <!-- Article Title -->
+  <text x="600" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+    Overpowered Characters
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="white" opacity="0.9">
+    Italian Brainrot Guide
+  </text>
+  
+  <!-- Character Icons -->
+  <circle cx="200" cy="400" r="50" fill="white" opacity="0.2"/>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">🥷</text>
+  <text x="200" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">Espresso Ninja</text>
+  
+  <circle cx="400" cy="400" r="50" fill="white" opacity="0.2"/>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">🧙</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">Gelato Wizard</text>
+  
+  <circle cx="600" cy="400" r="50" fill="white" opacity="0.2"/>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">🍝</text>
+  <text x="600" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">Pasta Master</text>
+  
+  <circle cx="800" cy="400" r="50" fill="white" opacity="0.2"/>
+  <text x="800" y="420" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">🎪</text>
+  <text x="800" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">Circus King</text>
+  
+  <circle cx="1000" cy="400" r="50" fill="white" opacity="0.2"/>
+  <text x="1000" y="420" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">👑</text>
+  <text x="1000" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">Meme Lord</text>
+  
+  <!-- Read More Button -->
+  <rect x="500" y="540" width="200" height="50" rx="25" fill="white" opacity="0.9"/>
+  <text x="600" y="575" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#AF52DE">
+    READ MORE
+  </text>
+</svg>
